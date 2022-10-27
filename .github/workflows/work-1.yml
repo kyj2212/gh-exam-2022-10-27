@@ -50,5 +50,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.actor }}/nginx-1:${{ needs.makeTagAndRelease.outputs.tag_name }},
-            ghcr.io/${{ github.actor }}/nginx-1:latest
+            ghcr.io/${{ github.actor }}/nginx-image-1:${{ needs.makeTagAndRelease.outputs.tag_name }},
+            ghcr.io/${{ github.actor }}/nginx-image-1:latest
